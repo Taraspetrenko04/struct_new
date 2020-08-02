@@ -1,0 +1,66 @@
+@media all and (min-width : 240px) {
+    .projects{
+        
+    }
+    .projects-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects-title{
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin: 20px 0 20px 0;
+    }
+    .projects-item{
+    // background-image: url(../../img/architecture.jpg); 
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       width: 300px;
+       height: 300px;
+       filter: grayscale(100%);
+       z-index: -1;
+    }
+
+    .architecture{
+        background-image: url(../../img/architecture.jpg);
+    }
+    .construction{
+        background-image: url(../../img/construction.jpg);
+    }
+    .renovation{
+        background-image: url(../../img/renovation.jpg);
+    }
+}
+@media (min-width:640px) {
+    .projects-item{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media (min-width:960px) {
+    .projects-items{
+        flex-direction: row;
+        align-items: stretch;
+    }
+    .projects-item{
+        height: 300px;
+        z-index: 0;
+    }
+    .architecture{
+        width: 33%;
+    }
+    .construction{
+        width: 34%;
+    }
+    .renovation{
+        width: 33%;
+    }
+}
+@media (min-width:1200px) {
+    .projects-item:hover{
+        filter: grayscale(10%);
+    }
+}

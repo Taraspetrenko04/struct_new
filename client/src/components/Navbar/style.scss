@@ -1,0 +1,19 @@
+@media all and (min-width : 240px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media (min-width:640px){}
+@media (min-width:960px){
+    .navbar{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media (min-width:1200px) {
+    
+}

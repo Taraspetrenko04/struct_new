@@ -1,0 +1,35 @@
+// width: 100%;
+//         background-image: url(../../img/1.png);
+//         background-repeat: no-repeat;
+//         background-size: cover;
+//         height: 100vh;
+//         background-position: center;
+
+@media all and (min-width : 240px) {
+    
+    .head-image{
+        width: 100%;
+        background-image: url(../../img/1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        background-position: center;
+        display: none;
+    }
+}
+@media (min-width:640px) {}
+@media (min-width:960px) {
+    .head-image{
+        display: block;
+        width: 100%;
+        background-image: url(../../img/1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        background-position: center;
+    }
+   
+}
+@media (min-width:1200px) {
+    
+} 

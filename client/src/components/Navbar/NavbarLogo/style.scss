@@ -1,0 +1,16 @@
+/* @media all and (min-width : 240px) {}
+@media (min-width:640px) and (max-width: 959px) {}
+@media (min-width:960px) and (max-width: 1199px) {}
+@media (min-width:1200px) {} */
+
+@media all and (min-width : 240px) {
+  .navbar-logo{
+    display: flex;
+   cursor: pointer;
+ }
+}
+@media (min-width:640px) {}
+@media (min-width:960px) {}
+@media (min-width:1200px) {
+   
+}
